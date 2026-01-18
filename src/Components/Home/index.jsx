@@ -46,8 +46,10 @@ export default function Home() {
             {/** E adiciona o resultado aqui. Componente que vai exibir os resultados pesquisados */}
             {query && <CardList countries={filterCountry} onSelect={handleSelectedCountry} />}
             <div className={styles.content}>
-                <h1>Países</h1>
-                <p>Quantidade de países: {countries.length}</p>
+                <h1>Countrys</h1>
+                <p>
+                    Number of countries: {countries.length}
+                </p>
             </div>
             <main className='flex-grow-1'>
                 <div className={styles.container}>

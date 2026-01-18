@@ -4,9 +4,10 @@
   gap: 0.5rem;
 
   position: fixed;
+  width: 100%;
   z-index: 2;
   top: 73px;
-  right: 25px;
+
 
   border: 1px solid rgba(0, 0, 0, 0.295);
   background-color: white;

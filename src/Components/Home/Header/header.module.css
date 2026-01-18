@@ -9,7 +9,7 @@
 
 }
 .input:focus{
-    max-width: 400px;
+    max-width: 200px;
     width: 100%;
     border: 1px solid #1b1b1b7c;
 
@@ -17,7 +17,7 @@
 }
 
 .img{
-    max-width: 30px;
+    max-width: 15px;
     width: 100%;
     right: 30px;
 }
@@ -25,5 +25,5 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 2;
+    z-index: 2; 
 }

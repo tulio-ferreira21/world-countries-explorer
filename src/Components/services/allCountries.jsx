@@ -5,11 +5,9 @@ export async function getAllCountries() {
     const response = await fetch(
         `${BASE_URL}${ALL}?fields=${FIELDS}`
     )
-    console.log(`${BASE_URL}${ALL}?fields=${FIELDS}`)
     if (!response.ok) {
         throw new Error('Erro na requisição');
 
     }
-    console.log(response.json)
     return response.json();
 }

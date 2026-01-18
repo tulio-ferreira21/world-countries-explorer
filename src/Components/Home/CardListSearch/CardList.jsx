@@ -5,7 +5,7 @@ export default function CardList({ countries, onSelect }) {
 
     useEffect(() => {
         if (!countries.length) {
-            setError('País não encontrado')
+            setError('Country not found')
             return;
         }
         setError('');
@@ -15,7 +15,7 @@ export default function CardList({ countries, onSelect }) {
     return (
         <div className={styles.container} style={{ height: Height }}>
             {
-                <h4 className='p-3'>Exibindo {countries.length} resultado(s): </h4>
+                <h4 className='p-3'>Showing {countries.length} result(s): </h4>
             }
             {
                 error &&
@@ -23,8 +23,8 @@ export default function CardList({ countries, onSelect }) {
             }
 
             {countries.map(country => (
-                <div className={styles.country} onClick={() => onSelect(country)} >
-                    <img src={country.flags.png} alt={`Bandeira do país ${country.name.common}`} className='img-fluid img-thumbnail'
+                <div className={styles.country} onClick={() => onSelect(country)} key={country.name.common}>
+                    <img src={country.flags.png} alt={`Flag of ${country.name.common}`} className='img-fluid img-thumbnail'
                         width={50}
                     />
                     <p>
