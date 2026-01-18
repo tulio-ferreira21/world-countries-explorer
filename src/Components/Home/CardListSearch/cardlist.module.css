@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  position: fixed;
+  z-index: 2;
+  top: 73px;
+  right: 25px;
+
+  border: 1px solid rgba(0, 0, 0, 0.295);
+  background-color: white;
+
+  max-height: 80vh;
+  overflow-y: auto;   
+  pointer-events: all;
+
+  overscroll-behavior: contain;
+}
+
+
+.country{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border-bottom: 1px solid #979797e3;
+    padding: 0.5rem;
+    transition: 0.3s;
+    width: 100%;
+    cursor: pointer;
+}
+.country:hover{
+    background-color: #26b1f1;
+    color: white;
+}

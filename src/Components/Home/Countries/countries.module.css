@@ -1,0 +1,13 @@
+.imgCountry{
+    max-width: 100px;
+    width: 100%;
+}
+.cardCountry{
+    transition: 0.3s;
+}
+.cardCountry:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    background-color: rgb(8, 113, 173);
+    color: #ffffff;
+} 

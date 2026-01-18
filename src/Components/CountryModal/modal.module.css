@@ -1,0 +1,11 @@
+.overlay{
+    position: fixed;
+    inset: 0;
+    background-color: #00000059;
+    pointer-events: all;
+    z-index: 9;
+}
+.modal{
+    position: fixed;
+    z-index: 10;
+}

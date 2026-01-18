@@ -1,0 +1,14 @@
+.container{
+    max-width: 95%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0.5rem;
+
+    margin: auto;
+
+}
+.content{
+    margin-top: 100px;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+.input{
+    max-width: 90px;
+    width: 100%;
+    border: 1px solid #d6d6d6;
+    border-radius: 0.5rem;
+    transition: 0.7s ease;
+    outline-color: transparent;
+    padding: 0.5rem;
+
+}
+.input:focus{
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid #1b1b1b7c;
+
+    box-shadow: 0px 6px 7px rgba(54, 54, 54, 0.322)c;
+}
+
+.img{
+    max-width: 30px;
+    width: 100%;
+    right: 30px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
