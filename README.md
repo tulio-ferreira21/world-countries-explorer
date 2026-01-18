@@ -35,7 +35,7 @@ This project was built with **React** and focuses on practicing API consumption,
 
 ### 1.Clone the repository
 ```bash
-git clone https://github.com/your-username/world-countries-explorer.git
+git clone https://github.com/tulio-ferreira21/world-countries-explorer
 ```
 
 ### 2. Enter the project folder
